@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dave - Mission and Founding Story</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+button.join-dave {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+}
+
+.mission, .founding-story {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.mission img, .founding-story img {
+    max-width: 40%;
+    height: auto;
+    flex: 1;
+}
+
+.mission .text-content, .founding-story .text-content {
+    flex: 1;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .mission, .founding-story {
+        flex-direction: column;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <!-- <header>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Giving Back</a></li>
+            </ul>
+            <button class="join-dave">Join Dave</button>
+        </nav>
+    </header> -->
+    <main>
+        <section class="mission">
+            <img src="https://swanthanass.org/wp-content/uploads/2022/09/our-mission.jpg" alt="Paycheck Illustration">
+            <div class="text-content">
+                <h1>Mission</h1>
+                <p>Creating financial opportunity that advances America's collective potential.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, saepe hic. Tempore aperiam cupiditate aliquam aspernatur, impedit, consequatur doloribus placeat enim consectetur autem inventore distinctio natus delectus culpa excepturi architecto?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eaque eum dolorum et esse commodi dignissimos deserunt necessitatibus aut reiciendis, deleniti, nesciunt laudantium distinctio. Maxime exercitationem autem totam doloremque temporibus!Lorem
+                </p>
+            </div>
+
+        </section>
+        <section class="founding-story">
+            <div class="text-content">
+                <h1>Founding Story</h1>
+                <p>Dave is the finance version of David vs. Goliath. Three friends were fed up with their banking experience, often incurring $38 overdraft fees and never having insights into how much money was left before payday.</p>
+                <p>With customer loyalty at big banks at an all-time low, they figured building the next great financial institution, one that </p>
+            </div>
+            <img src="https://thumbs.dreamstime.com/b/our-story-us-concept-words-unique-arrangement-white-background-49261141.jpg" alt="Founding Story Illustration">
+        </section>
+    </main>
+</body>
+</html>
